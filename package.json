@@ -1,6 +1,6 @@
 {
     "name": "karma-dev-react-aws-s3-typescript",
-    "version": "1.1.0",
+    "version": "1.1.01",
     "description": "Open source npm package to upload your files into AWS S3 Bucket directly using react(typescript template)",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -53,7 +53,6 @@
         "aws-sdk": "^2.993.0",
         "buffer": "^6.0.3",
         "crypto-js": "^4.1.1",
-        "karma-dev-react-aws-s3-typescript": "^1.1.0",
         "short-uuid": "^4.2.0"
     },
     "files": [
