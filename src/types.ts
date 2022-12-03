@@ -3,12 +3,12 @@ export type XAmzDate = string; // "20190127T110743102Z"
 export type DateYMD = string; // "20190127"
 
 export interface IConfig {
-  bucketName: string;
-  dirName?: string;
-  region: string;
-  accessKeyId: string;
-  secretAccessKey: string;
-  s3Url?: string;
+  bucketName: any;
+  dirName?: any;
+  region: any;
+  accessKeyId: any;
+  secretAccessKey: any;
+  s3Url?: any;
 }
 
 type GenericType = {
