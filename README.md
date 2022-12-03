@@ -1,3 +1,9 @@
+Source code is taken from https://github.com/NimperX/react-aws-s3-typescript.git
+
+I have forked and published it it to resove an issue I had with iConfig type thowing errors when instantiated from process.env.*
+
+
+
 # react-aws-s3-typescript
 
 Open source npm package to upload your files into AWS S3 Bucket directly using react(typescript template)
@@ -35,7 +41,7 @@ Readmore about AWS S3 buket: [https://docs.aws.amazon.com/s3/index.html](https:/
 Using npm
 
 ```bash
-$ npm install react-aws-s3-typescript
+$ npm install karma-dev-react-aws-s3-typescript
 ```
 
 ## Example
@@ -108,6 +114,7 @@ You can define a default directory for uploads using the s3Config object
         }
 
     /* End of uploadFile.ts */
+    }
 ```
 
 ### List files of a AWS S3 Bucket
